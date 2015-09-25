@@ -1,0 +1,5 @@
+development:
+  adapter: postgresql
+  database: sign_up
+  encoding: utf8
+  pool: 5
