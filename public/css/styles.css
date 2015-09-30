@@ -1,8 +1,88 @@
 body{
-  background-color: lightslategrey;
+  margin-top: 1.5%;
+  margin-bottom: auto;
+  background-image: url("https://tetakk.files.wordpress.com/2013/03/moonrise-kingdom.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
+  font-family: 'Petit Formal Script', cursive;
+}
+table{
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+td{
+  text-align: center;
+  *border-collapse: collapse;
+  border-spacing: 0;
+  opacity: 0.75;
+  font-weight: bolder;
+  border-style: hidden;
+}
+th{
+  text-align: center;
+  font-size: 28px;
+  border-bottom: 2.5px dotted darkgreen;
+}
+h2{
+  padding: 15px;
+  color: darkgreen;
+  border-bottom: 2.5px dotted darkgreen;
+}
+input[type="text"] {
+  background-color: #C0C0C0;
+  color: darkgreen;
+}
+input[type="text"]:focus {
+  background-color: darkgreen;
+  color: white;
+}
+#signup-form{
+  position: relative;
+  top: 50px;
+}
+#submitbutton{
+  background-color: #C0C0C0;
+  color: darkgreen;
+}
+#submitbutton:hover{
+  background-color: darkgreen;
+  color: white;
+}
+#removebutton{
+  background-color: #C0C0C0;
+  color: darkgreen;
+}
+#removebutton:hover{
+  background-color: darkgreen;
+  color: white;
+}
+#people_list{
+  font-weight: bolder;
+}
+.campbuttons{
+  font-family: 'Petit Formal Script', cursive;
+}
+.container{
+  padding: 75px;
+}
+.signup{
+  padding-top: 50px;
+  text-align: center;
+  background-image: url("http://www.myfreetextures.com/wp-content/uploads/2011/06/grungy-rough-old-worn-parchment-paper.jpg");
+  color: darkgreen;
+  border-top: none;
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
+  opacity: 0.80;
+  box-shadow: 0.65px 5px 5px 0.65px #000000;
 }
 .people_table{
-text-align: center;
-border: none;
+  padding: 75px;
+  background-image: url("http://www.myfreetextures.com/wp-content/uploads/2011/06/grungy-rough-old-worn-parchment-paper.jpg");
+  color: darkgreen;
+  text-align: center;
+  *border-collapse: collapse;
+  border-spacing: 0;
+  box-shadow: 0.65px 5px 5px 0.65px #000000;
 }

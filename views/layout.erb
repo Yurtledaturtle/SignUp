@@ -3,14 +3,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Camp Ivanhoe Sign Ups!</title>
+    <link href='https://fonts.googleapis.com/css?family=Petit+Formal+Script' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
     <link rel="stylesheet" href="/css/styles.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/template" id="person-template">
-      <td border="0" cellspacing="0" cellpadding="0"> <%%= name %> </td>
-      <td border="0" cellspacing="0" cellpadding="0"> <%%= email %> </td>
-      <td border="0" cellspacing="0" cellpadding="0"> <button type="button" class="remove">X</button> </td>
+      <td> <%%= name %> </td>
+      <td> <%%= email %> </td>
+      <td> <button class="campbuttons" type="button" id="removebutton" class="remove">X</button> </td>
     </script>
 
   </head>

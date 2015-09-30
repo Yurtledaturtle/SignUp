@@ -1,6 +1,9 @@
 var app = app || {};
 
 app.PersonView = Backbone.View.extend({
+  initialize: function(){
+    this.listenTo(this.model, 'change', this.render)
+  },
   tagName: 'tr',
   className: 'person',
   template: _.template( $('#person-template').html() ),
@@ -11,14 +14,14 @@ app.PersonView = Backbone.View.extend({
     this.$el.append( $html );
   },
   events: {
-    'click .remove': 'removePerson',
+    'click button.remove': 'removePerson',
   },
-
   removePerson: function(){
     this.model.destroy();
     this.$el.toggle('explode');
     setTimeout(function(){
-      this.$el.remove();
+      console.log($el);
+      this.$el.remove;
     }, 1000);
   }
 });
