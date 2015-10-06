@@ -14,7 +14,6 @@ app.personPainter = new app.PersonListView({
 app.people.fetch();
 
 
-
 $('.create-person').on('submit', function(e){
   e.preventDefault();
   var data = $(this).serializeJSON();
