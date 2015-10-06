@@ -7,8 +7,10 @@ class PeopleController < ApiController
 
   post '/' do
     content_type :json
-    person = Person.create( params[:person] )
-    redirect '/'
+    @json_params = JSON.parse(request.body.read)
+    byebug
+    person = Person.create!( @json_params['person'] )
+    # redirect '/'
   end
 
   delete '/:id' do

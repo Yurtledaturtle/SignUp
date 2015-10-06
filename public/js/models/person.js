@@ -2,7 +2,7 @@ var app = app || {};
 
 app.Person = Backbone.Model.extend({
   defaults: {
-    name: '',
-    email: ''
+    name: 'tbd',
+    email: 'tdb'
   }
 });
