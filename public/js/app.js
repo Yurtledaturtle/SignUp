@@ -12,3 +12,22 @@ app.personPainter = new app.PersonListView({
 });
 
 app.people.fetch();
+
+
+
+$('.create-person').on('submit', function(e){
+  e.preventDefault();
+  var data = $(this).serializeJSON();
+  var emailInput = $('#email').val();
+  var emailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  if(emailInput.match(emailFormat))  {
+    app.people.create(data.person);
+    $('.email').css('background-color', '#C0C0C0');
+    $('.email').css('color', 'darkgreen');
+    // this.reset();
+  }  else  {
+  $('.email').css('background-color', 'red');
+  alert("You have entered an invalid email address!");
+  $('#email').focus();
+  }
+});

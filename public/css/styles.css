@@ -5,7 +5,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  font-family: 'Petit Formal Script', cursive;
+  font-family: 'Signika', sans-serif;
 }
 table{
   border-bottom-left-radius: 30%;
@@ -25,6 +25,9 @@ th{
   border-bottom: 2.5px dotted darkgreen;
 }
 h2{
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
+  font-family: 'Petit Formal Script', cursive;
   padding: 15px;
   color: darkgreen;
   border-bottom: 2.5px dotted darkgreen;
@@ -32,10 +35,6 @@ h2{
 input[type="text"] {
   background-color: #C0C0C0;
   color: darkgreen;
-}
-input[type="text"]:focus {
-  background-color: darkgreen;
-  color: white;
 }
 #signup-form{
   position: relative;
@@ -67,22 +66,20 @@ input[type="text"]:focus {
   padding: 75px;
 }
 .signup{
-  padding-top: 50px;
+  padding: 10px;
   text-align: center;
-  background-image: url("http://www.myfreetextures.com/wp-content/uploads/2011/06/grungy-rough-old-worn-parchment-paper.jpg");
+  background-color: rgba(178, 154, 92, .85);
   color: darkgreen;
-  border-top: none;
+  border-top: solid darkgreen 2.5px;;
   border-top-left-radius: 25%;
   border-top-right-radius: 25%;
-  opacity: 0.80;
-  box-shadow: 0.65px 5px 5px 0.65px #000000;
 }
 .people_table{
   padding: 75px;
-  background-image: url("http://www.myfreetextures.com/wp-content/uploads/2011/06/grungy-rough-old-worn-parchment-paper.jpg");
+  background-color: rgba(178, 154, 92, .85);
   color: darkgreen;
   text-align: center;
   *border-collapse: collapse;
   border-spacing: 0;
-  box-shadow: 0.65px 5px 5px 0.65px #000000;
+  border-bottom: solid darkgreen 2.5px;
 }

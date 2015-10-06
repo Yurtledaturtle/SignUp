@@ -3,19 +3,19 @@
 <!-- Signup Form -->
 <div class="signup">
   <h2>Welcome To Camp Ivanhoe 2015</h2>
-<form id="signup-form" action="/api/people" method="post">
+<form class="create-person" id="signup-form" action="/api/people" method="post">
   <div class="row">
     <div class="six columns">
         <label for="person[name]">Scout's Name:</label>
-        <input type="text" class="signup-input" name="person[name]">
+        <input type="text" class="signup-input name" id="name" name="person[name]">
     </div>
     <div class="six columns">
         <label for="person[email]">Scout's Email:</label>
-        <input type="text" class="signup-input" name="person[email]">
+        <input type="text" class="signup-input email" id="email" name="person[email]">
     </div>
 </div>
   <div class="row">
-    <input class="campbuttons" id="submitbutton" type="submit" value="Sign Up">
+    <input type="submit" class="person-submit" id="submitbutton" value="Sign Up">
   </div>
 </form>
 </br>
@@ -49,7 +49,6 @@
 <script src="/js/collections/personCollection.js"></script>
 <script src="/js/views/personListView.js"></script>
 <script src="/js/views/personView.js"></script>
-<!-- <script src="/js/form.js"></script> -->
 
 <!-- App  -->
 <script src="/js/app.js" charset="utf-8"></script>

@@ -18,10 +18,6 @@ app.PersonView = Backbone.View.extend({
   },
   removePerson: function(){
     this.model.destroy();
-    this.$el.toggle('explode');
-    setTimeout(function(){
-      console.log($el);
-      this.$el.remove;
-    }, 1000);
+      this.$el.remove();
   }
 });
