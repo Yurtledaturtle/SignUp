@@ -16,12 +16,13 @@ app.people.fetch();
 
 $('.create-person').on('submit', function(e){
   e.preventDefault();
-  var data = $(this).serializeJSON();
+  var data = $(this).serializeJSON().person;
   var emailInput = $('#email').val();
   var emailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
   console.log(data);
     if(emailInput.match(emailFormat))  {
-      app.people.create(data);
+        app.people.create(data);
+        app.people.synch();
         $('.email').css('background-color', '#C0C0C0');
         $('.email').css('color', 'darkgreen');
         this.reset();
