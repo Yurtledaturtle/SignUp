@@ -1,42 +1,42 @@
-
-
 <!-- Signup Form -->
 <div class="signup">
-<div id="page-head">
-  <h2>Welcome To Camp Ivanhoe </br> Music Fest '15</h2>
-</div>
-<form class="create-person" id="signup-form" action="/api/people" method="post">
-  <div class="row">
-    <div class="six columns">
+
+  <div id="page-head">
+    <h2>Welcome To Camp Ivanhoe </br> Music Fest '15</h2>
+  </div>
+
+  <form class="create-person" id="signup-form" action="/api/people" method="post">
+    <div class="row">
+      <div class="six columns">
         <label for="person[name]">Scout's Name:</label>
         <input type="text" class="signup-input name" id="name" name="person[name]">
-    </div>
-    <div class="six columns">
+      </div>
+      <div class="six columns">
         <label for="person[email]">Scout's Email:</label>
         <input type="text" class="signup-input email" id="email" name="person[email]">
+      </div>
     </div>
-</div>
-  <div class="row">
-    <input type="submit" class="person-submit" id="submitbutton" value="Sign Up">
-  </div>
-</form>
-</br>
+    <div class="row">
+      <input type="submit" class="person-submit" id="submitbutton" value="Sign Up">
+    </div>
+  </form>
+  </br>
 
 <!-- Signup List -->
-<table class="twelve columns people_table">
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Email</th>
-      <th>Remove Me!</th>
-    </tr>
-  </thead>
+  <table class="twelve columns people_table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Remove Me!</th>
+      </tr>
+    </thead>
 
-  <tbody id="people_list">
+    <tbody id="people_list">
     <!-- Backbone List View -->
-  </tbody>
+    </tbody>
 
-</table>
+  </table>
 </div>
 
 

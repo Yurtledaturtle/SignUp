@@ -6,10 +6,12 @@ body{
   text-align: center;
   font-family: 'Signika', sans-serif;
 }
+
 table{
   border-bottom-left-radius: 30%;
   border-bottom-right-radius: 30%;
 }
+
 td{
   text-align: center;
   *border-collapse: collapse;
@@ -18,11 +20,13 @@ td{
   font-weight: bolder;
   border-style: hidden;
 }
+
 th{
   text-align: center;
   font-size: 28px;
   border-bottom: 2.5px dotted darkgreen;
 }
+
 h2{
   border-top-left-radius: 25%;
   border-top-right-radius: 25%;
@@ -32,6 +36,7 @@ h2{
   color: darkgreen;
   border-bottom: 2.5px dotted darkgreen;
 }
+
 input[type="text"] {
   background-color: #C0C0C0;
   color: darkgreen;
@@ -39,48 +44,50 @@ input[type="text"] {
   width: 200px;
   font-size: 18px;
 }
-#signup-form{
-  position: relative;
-  top: 50px;
-}
-#submitbutton{
-  background-color: #C0C0C0;
-  color: darkgreen;
-}
-#submitbutton:hover{
-  background-color: darkgreen;
-  color: white;
-}
-#removebutton{
-  background-color: #C0C0C0;
-  color: darkgreen;
-}
-#removebutton:hover{
-  background-color: darkgreen;
-  color: white;
-}
-#people_list{
-  font-weight: bolder;
-}
+
 #page-head{
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   background-color: rgba(178, 154, 92);
 }
+
+#people_list{
+  font-weight: bolder;
+}
+
+#removebutton{
+  background-color: #C0C0C0;
+  color: darkgreen;
+}
+
+#removebutton:hover{
+  background-color: darkgreen;
+  color: white;
+}
+
+#signup-form{
+  position: relative;
+  top: 50px;
+}
+
+#submitbutton{
+  background-color: #C0C0C0;
+  color: darkgreen;
+}
+
+#submitbutton:hover{
+  background-color: darkgreen;
+  color: white;
+}
+
 .campbuttons{
   font-family: 'Petit Formal Script', cursive;
 }
+
 .container{
   padding: 75px;
 }
-.signup{
-  text-align: center;
-  background-color: rgba(178, 154, 92, .85);
-  color: darkgreen;
-  border-top: solid darkgreen 2.5px;;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-}
+
 .people_table{
   padding: 75px;
   background-color: rgba(178, 154, 92, .85);
@@ -89,4 +96,13 @@ input[type="text"] {
   *border-collapse: collapse;
   border-spacing: 0;
   border-bottom: solid darkgreen 2.5px;
+}
+
+.signup{
+  text-align: center;
+  background-color: rgba(178, 154, 92, .85);
+  color: darkgreen;
+  border-top: solid darkgreen 2.5px;;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }

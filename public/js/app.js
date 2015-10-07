@@ -19,7 +19,9 @@ $('.create-person').on('submit', function(e){
   var data = $(this).serializeJSON().person;
   var emailInput = $('#email').val();
   var emailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
   console.log(data);
+  
     if(emailInput.match(emailFormat))  {
         app.people.create(data);
         app.people.synch();
