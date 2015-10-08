@@ -7,6 +7,24 @@ body{
   font-family: 'Signika', sans-serif;
 }
 
+h2{
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
+  font-family: 'Petit Formal Script', cursive;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: darkgreen;
+  border-bottom: 2.5px dotted darkgreen;
+}
+
+input[type="text"] {
+  background-color: #C0C0C0;
+  color: darkgreen;
+  height: 50px;
+  width: 200px;
+  font-size: 18px;
+}
+
 table{
   border-bottom-left-radius: 30%;
   border-bottom-right-radius: 30%;
@@ -25,24 +43,6 @@ th{
   text-align: center;
   font-size: 28px;
   border-bottom: 2.5px dotted darkgreen;
-}
-
-h2{
-  border-top-left-radius: 25%;
-  border-top-right-radius: 25%;
-  font-family: 'Petit Formal Script', cursive;
-  padding-top: 30px;
-  padding-bottom: 10px;
-  color: darkgreen;
-  border-bottom: 2.5px dotted darkgreen;
-}
-
-input[type="text"] {
-  background-color: #C0C0C0;
-  color: darkgreen;
-  height: 50px;
-  width: 200px;
-  font-size: 18px;
 }
 
 #page-head{
